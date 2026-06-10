@@ -130,12 +130,12 @@ class _ConverterCard extends GetView<ConvertController> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              _CurrencyPill(
+              Obx(() => _CurrencyPill(
                 label: 'You send',
                 code: home.fromCode.value,
                 onTap: () => _pickCurrency(context, 'from', home),
                 c: c,
-              ),
+              ),),
               const SizedBox(height: 16),
               Obx(() => _AmountInput(
                     symbol: home.fromCurrency.symbol,
@@ -584,7 +584,6 @@ class _ActionRow extends GetView<ConvertController> {
       ),
       const SizedBox(width: 10),
       Expanded(
-        flex: 14,
         child: Obx(() {
           final saved = controller.isSaved.value;
           return ElevatedButton.icon(

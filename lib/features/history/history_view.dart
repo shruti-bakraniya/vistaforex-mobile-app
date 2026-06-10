@@ -301,6 +301,7 @@ class _StatsGrid extends StatelessWidget {
       crossAxisSpacing: 10,
       mainAxisSpacing: 10,
       childAspectRatio: 2.2,
+      padding: EdgeInsets.zero,
       children: [
         _StatCard(
           label: '${days}d high',
