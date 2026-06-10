@@ -1,5 +1,7 @@
 # VistaForex
 
+[Download Android APK](https://github.com/shruti-bakraniya/vistaforex-mobile-app/releases/download/v0.0.1/vistaforex_v1.apk)
+
 **Premium Flutter currency converter with glassmorphism UI, GetX MVVM, and real-time exchange rates.**
 
 > A mobile-first currency converter featuring live/cached/offline exchange rates from multiple API providers, interactive rate-history charts, a conversion ledger, and a glassmorphism design system with full dark/light mode support.
