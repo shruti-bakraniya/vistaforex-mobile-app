@@ -11,6 +11,10 @@ Built with **MVVM architecture** and **GetX** for state management.
   <em>USD → INR · live mid-market rates · #F28500 accent</em>
 </p>
 
+## App Preview
+
+![App Flow Walkthrough](assets/videos/walk_through.mp4)
+
 ## Features
 
 - **Convert** — pick source/target currencies, enter an amount, get a live count-up result with a swap animation and quick-amount chips.
