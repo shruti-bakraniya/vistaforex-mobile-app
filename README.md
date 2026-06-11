@@ -1,6 +1,6 @@
 # VistaForex
 
-[Download Android APK](https://github.com/shruti-bakraniya/vistaforex-mobile-app/releases/download/v0.0.1/vistaforex_v1.apk)
+[Download Android APK](https://github.com/shruti-bakraniya/vistaforex-mobile-app/releases/download/v0.0.1/vistaforex-v1.apk)
 
 A premium-fintech **Flutter currency converter** with a glassmorphism UI, real-time
 exchange rates, offline caching, and interactive rate-history charts.
